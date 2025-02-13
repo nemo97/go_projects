@@ -1,0 +1,9 @@
+# context path as key and base url to forward
+---
+rules:  
+  default-host:      
+    target: http://localhost:8082
+  test:      
+    target: http://localhost:8080
+  app2:          
+     target: http://localhost:9100
